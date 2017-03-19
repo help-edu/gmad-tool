@@ -78,7 +78,7 @@ int main(int argc, char *argv[])
         gmad_path = string(env_p);
     else {
     	cout << "Info: you can specify GMAD_PATH to your gmad.exe in os environment\n";
-		gmad_path = _here + string("gmad.exe");
+		gmad_path = string("gmad.exe");
 	}	
 	
 	if(argc < 2) {
